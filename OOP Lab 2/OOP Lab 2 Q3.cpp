@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstring>
-#include <string>
 using namespace std;
 
 /*
@@ -13,13 +12,13 @@ using namespace std;
 
 class Employee {
 private:
-    char* first_name;  
+    string first_name;  
     string last_name;
     int monthly_salary;
 
 public:
-    void set_employee_details(char* f_name, string l_name, int salary);
-    char* get_first_name();
+    void set_employee_details(string f_name, string l_name, int salary);
+    string get_first_name();
     string get_last_name();
     int get_monthly_salary();
     
@@ -27,11 +26,8 @@ public:
     void give_raise();
 };
 
-void Employee::set_employee_details(char* f_name, string l_name, int salary) {
-    int f_name_length = strlen(f_name);
-    first_name = new char[f_name_length + 1]; 
-    strcpy(first_name, f_name);
-    
+void Employee::set_employee_details(string f_name, string l_name, int salary) {
+    first_name = f_name;
     last_name = l_name;
 
     if (salary > 0) {
@@ -41,7 +37,7 @@ void Employee::set_employee_details(char* f_name, string l_name, int salary) {
     }
 }
 
-char* Employee::get_first_name() {
+string Employee::get_first_name() {
     return first_name;
 }
 
@@ -63,7 +59,7 @@ void Employee::give_raise() {
 
 int main() {
     Employee A, B;
-    char first_name[100];
+    string first_name;
     string last_name;
     int salary;
 
