@@ -9,7 +9,7 @@ using namespace std;
 
 */
 
-class bookType {
+class bookType {   
 private:
     string title;
     string authors[4];
