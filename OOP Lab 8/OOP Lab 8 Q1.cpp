@@ -11,7 +11,7 @@ using namespace std;
 
 // ----------------------------- Vehicle (Base Class) -----------------------------
 
-class Vehicle {
+class Vehicle { 
 protected:
     string type, make, model, color;
     int year;
