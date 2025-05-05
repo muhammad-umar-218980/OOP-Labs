@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/* 
+
+    Muhammad Umar
+    CSIT Section - A
+    Roll no. : CT - 24028
+ 
+*/
+
 template <typename T1, typename T2>
 double add(T1 a, T2 b) {
     cout << "a = " << a << ", b = " << b << " => ";

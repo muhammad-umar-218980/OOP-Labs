@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/* 
+
+    Muhammad Umar
+    CSIT Section - A
+    Roll no. : CT - 24028
+ 
+*/
+
 template <typename T>
 class DynamicArray {
 public:
