@@ -1,8 +1,14 @@
 #include <iostream>
 #include <set>
-#include <string>
-
 using namespace std;
+
+/* 
+
+    Muhammad Umar
+    CSIT Section - A
+    Roll no. : CT - 24028
+ 
+*/
 
 int main() {
     set<string> guest_names;

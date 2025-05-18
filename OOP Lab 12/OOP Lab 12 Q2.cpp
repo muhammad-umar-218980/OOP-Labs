@@ -1,7 +1,14 @@
 #include <iostream>
 #include <vector>
-#include <string>
 using namespace std;
+
+/* 
+
+    Muhammad Umar
+    CSIT Section - A
+    Roll no. : CT - 24028
+ 
+*/
 
 class DynamicStack {
     vector<char> v;
